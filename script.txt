@@ -1,0 +1,10 @@
+Create table Proyectos (
+IdProyecto Smallint,
+NombreProyecto char(60),
+FechaInicioProyecto Date,
+FechaTerminoProyecto Date,
+DescripcionProyecto char(300),
+NumMaxAlumnosProyecto int)
+
+
+ALTER LOGIN [prueba] WITH DEFAULT_DATABASE = master
